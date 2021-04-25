@@ -76,7 +76,7 @@ function App() {
           cartItems={cartItems}
           
            /> 
-           <br/>
+       
            <Footer />
     </div>
   );
