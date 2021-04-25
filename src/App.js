@@ -1,7 +1,6 @@
 
 import './App.css';
 import Head from './Head'
-import Search from './Search';
 import Menu from './container/Menu';
 import React, { useState } from 'react';
 import Basket from './container/Basket';
@@ -14,10 +13,10 @@ const products = [
   { label: 'Carrot', type: 'carrot' },
   { label: 'Celery', type: 'celery' },
   { label: 'Mushroom', type: 'mushroom' },
-  { label: 'Green Pepper', type: 'salad' },
-  { label: 'Eggs', type: 'bacon' },
+  { label: 'Green Pepper', type: 'green pepper' },
+  { label: 'Eggs', type: 'eggs' },
   { label: 'Cheese', type: 'cheese' },
-  { label: 'Butter', type: 'meat' },
+  { label: 'Butter', type: 'butter' },
   { label: 'Chicken', type: 'chicken' },
   { label: 'Beef', type: 'beef' },
   { label: 'Pork', type: 'pork' },
@@ -65,7 +64,7 @@ function App() {
   return (
     <div >
       <Head />
-      <Search />
+     
      
       <Menu
           onAdd={onAdd}
